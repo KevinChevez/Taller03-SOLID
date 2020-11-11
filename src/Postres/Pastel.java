@@ -12,7 +12,13 @@ import Adicionales.Aderezo;
  *
  * @author Pedro Mendoza
  */
-public class Pastel{
+public class Pastel extends Postre{
+
+    public Pastel(String sabor) {
+        super(sabor);
+        this.precioParcial = 15.55;
+    }
+    /*
     private String sabor;
     private double precioParcial;
     private ArrayList<Aderezo> aderezos;
@@ -31,14 +37,14 @@ public class Pastel{
 
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
-    }
+    }*/
 
     @Override
     public String toString() {
         return "Pastel{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
-    }
+    }/*
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
-    
+    */
 }
