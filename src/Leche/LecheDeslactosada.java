@@ -15,11 +15,15 @@ public class LecheDeslactosada extends LecheEntera {
     public void usarHelado() {
         System.out.println("Usando leche deslactosada");
     }
-
+    /**
+     * Se lanza una excepcion al metodo en vez de hacero dentro del metodo
+     * @throws RuntimeException 
+     */
     @Override
-    public void usarPastel() {
+    public void usarPastel() throws RuntimeException{
         // Lanzar error No se puede usar en pastel
-        throw new RuntimeException(this.getClass() + ": No se puede usar en pastel");
+        System.out.println(" No se puede agregar leche deslactosada al Pastel");
+           
     }
         
 }
