@@ -14,7 +14,7 @@ import Postres.Helado;
  * @author Pedro Mendoza
  */
 public class OperacionesAderezo {
-    /*
+    /*git pull
     public static void anadirAderezoHelado(Helado helado,Aderezo aderezo){
         helado.getAderezos().add(aderezo);
     }
