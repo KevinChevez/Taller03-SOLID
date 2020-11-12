@@ -6,5 +6,9 @@ En la parte 3 del análisis, con base al principio SOLID - Open-Close Principle,
 
 En la parte 4 del análisis, se aplica el método SOLID -  Dependency Inversion Priciple (DIP) 
 
-En la clase Leche deslactosada se modificó el metodo usarPastel() para que lanze una excepcion en vez de tener una excepcion dentro del metodo 
-![Image] https://github.com/KevinChevez/Taller03-SOLID/blob/main/leche.png
+En la parte 5 , con base al principio DIP -Dependency Inversion Principle- se arregló un error en la clase Leche deslactosada. Dependiendo el modulo bajo de  la abstraccion y no de otro modulo. En la clase Leche deslactosada se modificó el metodo usarPastel() para que lanze una excepcion en vez de tener una excepcion dentro del metodo .
+![Image](https://github.com/KevinChevez/Taller03-SOLID/blob/main/leche.png)
+
+En la parte 6 ,se adaptó el proyecto de tal manera que el Main presentado en el documento corra sin problemas.
+
+
