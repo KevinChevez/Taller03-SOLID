@@ -10,10 +10,9 @@ package Adicionales;
  * @author JOVEN EJEMPLAR
  */
 public class Malvavisco extends Aderezo{
-    private String nombre;
 
     @Override
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        super.nombre = nombre;
     }
 }

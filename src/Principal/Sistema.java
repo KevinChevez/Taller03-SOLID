@@ -60,16 +60,17 @@ public class Sistema {
         arrPostres.add(pastel_chocolate);
         
         arrPostres.forEach(postre -> {
-            Aderezo crema =  new Crema();
+            Crema crema =  new Crema();
             crema.setNombre("crema");
-            Aderezo frutilla = new Frutilla();
+            Frutilla frutilla = new Frutilla();
             frutilla.setNombre("frutilla");
             
             postre.anadirAderezo(crema);
             postre.anadirAderezo(frutilla);
             System.out.println(postre);
             mnj_leche.cambiarTipoLeche(postre);
-            System.out.println(ManejadorDePrecio.showPrecioFinal(postre));
+            ManejadorDePrecio.showPrecioFinal(postre);
+            System.out.println();
         });        
         
     }
